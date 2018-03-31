@@ -1,0 +1,75 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background: url(../images/background3.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Helvetica Neue',sans-serif;
+}
+#rowDiv {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+}
+
+input[type="text"] {
+    height: 40px;
+    font-size: 20px;
+}
+
+#sumbitWeather {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#myButton {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#filter {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.jumbotron {
+    width: 100%;
+    height: 80px;
+}
+#locationWeather {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#overLayer{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+}
+#box_frame{
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    left: 25%;
+}
+#box{
+    width: 650px;
+    padding: 10px;
+    background: url(../images/background3.jpg);
+    border: 3px solid white;
+    font-size: 24px;
+}
+#closeButton{
+	border: 1px solid #fff;
+    padding: 6px;
+    outline: none;
+    width: 260px;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 2px;
+    font-family: 'Exo',sans-serif;
+}

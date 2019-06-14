@@ -1,4 +1,4 @@
-var _appID = "9513f48402f9da9678941402616b1e8a";
+var _appID = "";
 function APIRequest() {
   var city = document.getElementsByName("city")[0].value;
   if (city != "") {
